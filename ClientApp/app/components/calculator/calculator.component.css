@@ -1,0 +1,54 @@
+﻿body {
+}
+
+.calculator {
+    border: 1px;
+    border-color: grey;
+    border-style: solid;
+    background-color: #f4f4f4;
+    width: 194px;
+    padding: 10px;
+}
+
+.formula {
+    font-size: 16px;
+    color: darkgrey;
+    text-align: right;
+    white-space: pre-wrap;
+}
+
+.display {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    white-space: pre-wrap;
+    border: 1px;
+    border-color: grey;
+    border-style: solid;
+    background-color: white;
+    width: 172px;
+}
+
+.button-row {
+    margin: 4px 0px;
+}
+
+.button {
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    margin: 0px;
+    border-width: 2px;
+}
+
+.double-button {
+    width: 84px
+}
+
+.number-button {
+    font-weight: bold;
+}
+
+.operation-button {
+
+}

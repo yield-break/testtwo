@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Testtwo", "Testtwo.xproj", "{ED9FA84B-DA87-43FC-BECB-4160DE1411D6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GoogleSearch.Lib", "..\GoogleSearch.Lib\GoogleSearch.Lib.xproj", "{BC51C2B6-C640-4490-A304-CB53C8AB8919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED9FA84B-DA87-43FC-BECB-4160DE1411D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9FA84B-DA87-43FC-BECB-4160DE1411D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9FA84B-DA87-43FC-BECB-4160DE1411D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9FA84B-DA87-43FC-BECB-4160DE1411D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC51C2B6-C640-4490-A304-CB53C8AB8919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC51C2B6-C640-4490-A304-CB53C8AB8919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC51C2B6-C640-4490-A304-CB53C8AB8919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC51C2B6-C640-4490-A304-CB53C8AB8919}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

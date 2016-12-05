@@ -1,0 +1,44 @@
+﻿<h2>Calculator</h2>
+
+<p>This is a simple calculator written in Angular 2, connected to an ASP.Net Core MVC back end.</p>
+
+<div class="calculator">
+
+    <p class="formula">{{ formula }}</p>
+
+    <p class="display"> {{ displayText }}</p>
+
+    <div class="button-row">
+        <button class="button double-button operation-button" (click)="reset()">Reset</button>
+        <button class="button operation-button" (click)="delete()">Del</button>
+        <button class="button operation-button" (click)="divide()">/</button>
+    </div>
+
+    <div class="button-row">
+        <button class="button number-button" (click)="seven()">7</button>
+        <button class="button number-button" (click)="eight()">8</button>
+        <button class="button number-button" (click)="nine()">9</button>
+        <button class="button operation-button" (click)="multiply()">x</button>
+    </div>
+
+    <div class="button-row">
+        <button class="button number-button" (click)="four()">4</button>
+        <button class="button number-button" (click)="five()">5</button>
+        <button class="button number-button" (click)="six()">6</button>
+        <button class="button operation-button" (click)="subtract()">-</button>
+    </div>
+
+    <div class="button-row">
+        <button class="button number-button" (click)="one()">1</button>
+        <button class="button number-button" (click)="two()">2</button>
+        <button class="button number-button" (click)="three()">3</button>
+        <button class="button operation-button" (click)="add()">+</button>
+    </div>
+
+    <div class="button-row">
+        <button class="button number-button" (click)="decimal()">.</button>
+        <button class="button number-button" (click)="zero()">0</button>
+        <button class="button double-button operation-button" (click)="equals()">=</button>
+    </div>
+
+</div>
